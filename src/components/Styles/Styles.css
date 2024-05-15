@@ -1,0 +1,161 @@
+.containerStyle {
+    overflow-x: hidden;
+    position: relative;
+    height: 100vh;
+}
+
+.labelStyle {
+    position: absolute;
+    top: 15px;
+    left: 90px;
+    color: #9a0000;
+    font-size: 34px;
+    z-index: 4;
+    opacity: 1; /* Потрібно змінити значення opacity */
+    transition: opacity 0.5s ease;
+    font-family: Chiller;
+}
+
+.contextStartImage,
+.contextTwoImage,
+.contextThreeImage {
+    position: absolute;
+    right: 0;
+    margin-right: 20px;
+    opacity: 1;
+    transition: opacity 0.5s ease;
+}
+
+.contextStartImage {
+    top: 1050px;
+    width: 500px;
+    height: 380px;
+}
+
+.contextTwoImage {
+    top: 3500px;
+    width: 500px;
+    height: 380px;
+}
+
+.contextThreeImage {
+    top: 2350px;
+    width: 650px;
+    height: 400px;
+}
+
+.imageStyle {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    width: 40px;
+    height: 40px;
+    opacity: 1;
+    transition: opacity 0.5s ease;
+}
+
+.loadingImageStyle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70px;
+    height: 70px;
+    display: block;
+}
+
+.contentStyle {
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: 1;
+    transition: opacity 0.5s ease;
+}
+
+.headerStyle {
+    font-weight: bold;
+    text-align: center;
+}
+
+.navContainerStyle {
+    position: absolute;
+    top: 20px;
+    right: 0;
+    display: flex;
+    margin-right: 30px;
+}
+
+.lineStyle {
+    height: 35px;
+    border-left: 1px solid grey;
+    margin: 0 10px;
+}
+
+.navLinkStyle {
+    margin-right: 20px;
+    color: black;
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.navLinkStyleRed {
+    margin-right: 20px;
+    color: #b60000;
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contentContainer {
+    max-width: 800px;
+    margin: 0 auto;
+}
+.navbar {
+    /* Стилі для навігаційного бару */
+    /* Наприклад, виберіть потрібні кольори, шрифти, розміри і т. д. */
+    transition: background-color 0.3s ease;
+}
+
+.navScrolled {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #ffffff; /* Змініть на ваш колір */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Додайте тінь для ефекту прикріплення */
+    z-index: 1000; /* Підніміть навігаційний бар над іншим вмістом */
+}
+.containerStyleDiv,
+.containerDivStart {
+    margin-left: 150px;
+    margin-right: 150px;
+    text-align: left;
+}
+.containerDivStartTwo {
+    margin-left: 800px;
+    text-align: left;
+}
+.containerStyleDiv {
+    margin-top: 650px;
+}
+
+.containerDivStart {
+    margin-top: 300px;
+}
+
+.headingStyle,
+.paragraphStyle,
+.headingFiveStyle {
+    max-width: 400px;
+    left: 150px;
+}
+
+.paragraphStyle {
+    color: #646464;
+    font-size: 19px;
+}
+
+.headingFiveStyle {
+    color: red;
+}

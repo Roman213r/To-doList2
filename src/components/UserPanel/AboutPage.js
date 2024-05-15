@@ -4,12 +4,10 @@ import imgList from '../Images/imgList.png';
 import ilustationImage from '../Images/importantThing.png';
 import fuetureImage from '../Images/fuetures.png';
 import startImage from '../Images/priorityTodo.png';
-import timeImage from '../Images/backgroundTodo.png';
 import loadingImage from '../Images/avatar-red.gif'; // Make sure to import your loading image
 import Footer from "../Common/Footer";
 import '../Styles/Styles.css';
-import {FaChevronDown, FaComments, FaExternalLinkAlt, FaQuestionCircle} from "react-icons/fa";
-import pencilImage from "../Images/video_2024-05-07_15-10-54.gif";
+import {FaChevronDown, FaComments, FaQuestionCircle} from "react-icons/fa";
 const AboutPage = () => {
     const [showDropdown, setShowDropdown] = useState(false);
 
@@ -61,13 +59,7 @@ const AboutPage = () => {
         // Cleanup the timeout to avoid memory leaks
         return () => clearTimeout(loadingTimeout);
     }, []);
-    const linkStylesAdd = {
-        fontSize: '14px',
-        color: '#9A0000FF',
-        fontWeight: 'bold',
-        textDecoration: 'none',
-        marginBottom: '10px',
-    };
+
     const containerStyle = {
         overflowX: 'hidden',
         position: 'relative',
@@ -100,15 +92,6 @@ const AboutPage = () => {
         opacity: isLoading ? 0 : 1,
         transition: 'opacity 0.5s ease',
     };
-    const contextTwoImage = {
-        position: 'absolute',
-        top: '3000px',
-        right: '0',
-        marginRight: '200px',
-        width: '1000px',
-        height: '600px',
-        transition: 'opacity 0.5s ease',
-    };
 
     const contextFourImage = {
         position: 'absolute',
@@ -121,18 +104,6 @@ const AboutPage = () => {
         transition: 'opacity 0.5s ease',
     };
 
-    const contextFiveImage = {
-        position: 'absolute',
-        top: '4100px',
-        right: '0px',
-        marginLeft: '0px',
-        width: '100%',
-        height: '650px',
-        opacity: isLoading ? 0 : 1,
-        borderRadius:'20px',
-        marginBottom: '350px',
-        transition: 'opacity 0.5s ease',
-    };
     const contextThreeImage = {
         position: 'absolute',
         top: '2340px',
@@ -202,12 +173,6 @@ const AboutPage = () => {
         marginRight: '100px', // Додайте відступ справа
         textAlign: 'left',
         marginTop: '650px',
-    };
-    const containerStyleDivEnd = {
-        marginLeft: '100px',  // Додайте відступ зліва
-        marginRight: '100px', // Додайте відступ справа
-        textAlign: 'left',
-        marginTop: '1000px',
     };
     const containerDivStart = {
         marginLeft: '1000px',  // Додайте відступ зліва// Додайте відступ справа
